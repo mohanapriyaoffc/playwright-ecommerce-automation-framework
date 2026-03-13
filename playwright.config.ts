@@ -32,7 +32,7 @@ export default defineConfig({
     trace: 'on',
     video:'on',
     screenshot:'only-on-failure',
-    headless:false,
+    headless:true,
     permissions: [],
     launchOptions: {
       args: [
