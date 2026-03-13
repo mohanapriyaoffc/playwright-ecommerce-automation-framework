@@ -34,12 +34,6 @@ export default defineConfig({
     screenshot:'only-on-failure',
     headless:true,
     permissions: [],
-    launchOptions: {
-      args: [
-        '--disable-geolocation',
-        '--disable-notifications',
-      ]
-    }
 
   },
 
